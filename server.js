@@ -19,7 +19,7 @@ app.use(cookieParser())
 app.use(express.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.use(cors({
-    origin: ["http://localhost:3000", "https://pinvent-app.netlify.app"],
+    origin: ["http://localhost:3000", "https://my-pinvent-app.onrender.com"],
     credentials: true
 }))
 
